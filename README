@@ -1,0 +1,8 @@
+Put all the folders in $ANDROID_SOURCE/external folder and build. AndroidVncServer executable would be build with the OS.
+
+
+Issues : 
+
+	This is currently View-Only. It uses uinput.ko for managing inputs. It can recieve inputs through VNC connection, but is not able to inject them into system.
+	
+	 Need to build uinput.ko kernel module. But even with that, inputs currently don't work.
